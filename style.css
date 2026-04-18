@@ -1,0 +1,31 @@
+body {
+  background: #0d1117;
+  color: #fff;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #2d333b;
+  color: #fff;
+  height: 100%;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  height: 320px;
+  object-fit: cover;
+}
+
+#suggestions {
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
